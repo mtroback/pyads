@@ -28,7 +28,7 @@ Quickstart
 
     >>> # connect to plc and open connection
     >>> # route is added automatically to client on Linux, on Windows use the TwinCAT router
-    >>> plc = pyads.Connection('127.0.0.1.1.1', pyads.PORT_SPS1)
+    >>> plc = pyads.Connection('127.0.0.1.1.1', pyads.PORT_TC3PLC1)
     >>> plc.open()
 
     >>> # check the connection state
