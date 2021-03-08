@@ -7,10 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## 3.3.5 [unreleased]
 
 ### Added
+* Added `PORT_TC3PLC1`, `PORT_TC3PLC2`, `PORT_TC3PLC3` and `PORT_TC3PLC4` to constants which are used by TwinCAT3 PLC programs
 * [#223](https://github.com/stlehmann/pyads/pull/223) Add structure support for symbols
 
 ### Changed
-
+* Changed the default connection port to `PORT_TC3PLC1` in the README.md as this is the default for TwinCAT3
 * [#221](https://github.com/stlehmann/pyads/pull/221) CI now uses Github Actions instead of TravisCI. Also Upload to PyPi is now on automatic.
 
 ### Removed
